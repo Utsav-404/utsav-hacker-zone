@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utsav's Hacker Zone</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background: #000000; /* Hacker dark theme */
+            color: #00ff00;
+            overflow-x: hidden;
+        }
+
+        /* Slower Horizontal Hacker Emoji Animation */
+        .train-container {
+            position: relative;
+            overflow: hidden;
+            height: 80px;
+            background: #1f1f1f;
+            border-bottom: 2px solid #00ff00;
+        }
+
+        .train {
+            position: absolute;
+            white-space: nowrap;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00ff00;
+            animation: train-move 12s linear infinite; /* Slowed animation */
+        }
+
+        @keyframes train-move {
+            0% { right: -100%; }
+            100% { right: 100%; }
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+            border-bottom: 3px solid #00ff00;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        section {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 1.4rem;
+        }
+
+        section .button {
+            display: inline-block;
+            background: #00ff00;
+            color: #000000;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        section .button:hover {
+            background: #ff0000;
+            transform: scale(1.1);
+        }
+
+        .dynamic-name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 0 0 8px #00ff00, 0 0 20px #ff0000;
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 0 0 8px #00ff00, 0 0 20px #ff0000; }
+            50% { text-shadow: 0 0 20px #ff0000, 0 0 8px #00ff00; }
+            100% { text-shadow: 0 0 8px #00ff00, 0 0 20px #ff0000; }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+            font-size: 1.2rem;
+            color: #ff0000;
+            font-style: italic;
+        }
+
+        .extra-content {
+            text-align: center;
+            margin-top: 20px;
+            background: #0f0f0f;
+            color: #00ff00;
+            padding: 20px;
+            font-size: 1.3rem;
+            border-top: 2px solid #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="train-container">
+        <div class="train">👾 Utsav Biswas 👾 Utsav Biswas 👾 Utsav Biswas 👾</div>
+    </div>
+
+    <header>
+        <h1>Ethical Hacker Zone</h1>
+        <p>Your one-stop destination for professional hacking vibes!</p>
+    </header>
+
+    <section>
+        <p>Welcome to the world of Utsav Biswas, where hacking meets innovation. Let’s get you ready to explore the possibilities!</p>
+        <button class="button">Hack the Planet</button>
+    </section>
+
+    <section>
+        <p class="dynamic-name">🔥 Utsav Biswas 🔥</p>
+        <p>Hacking Attack Pro | Your digital partner in chaos and creativity.</p>
+    </section>
+
+    <div class="extra-content">
+        <p>💻 "In the digital world, there are no limits—only possibilities." 💻</p>
+        <p>Explore, innovate, and dominate like Utsav Biswas does. Let your journey begin!</p>
+    </div>
+
+    <footer>
+        K dekh riya he beyy? Chal bhag, bhikari! 😂
+    </footer>
+</body>
+</html>
