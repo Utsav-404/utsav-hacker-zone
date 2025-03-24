@@ -37,7 +37,7 @@ This masterpiece is brought to life by **Utsav Biswas**, an ethical hacker and t
 
 ---
 
-> **Tagline**: "K dekh riya he beyy? Chal bhag, bhikari!" 😂
+> **Tagline**: ""CCTV on kar 📷, hacker logon ki entry ho rahi hai! 😎💀" 
 
 ---
 
